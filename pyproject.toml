@@ -1,7 +1,10 @@
 [project]
 name = "weather-praisonai"
 version = "0.1.0"
-description = "Add your description here"
+description = "Attempting to use MCP to find the weather for a city"
 readme = "README.md"
-requires-python = ">=3.12"
-dependencies = []
+requires-python = ">=3.13"
+dependencies = [
+    "praisonaiagents>=0.0.76",
+    "mcp-weather-server>=0.1.3",
+]
